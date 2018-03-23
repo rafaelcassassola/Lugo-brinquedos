@@ -814,7 +814,13 @@
     justify-content: flex-end; } }
 
 /* Ajustes Mobile */
+@media screen and (max-width: 800px) {
+  #detalhes-produto .btn-alert {
+    display: none !important; } }
+
 @media screen and (max-width: 330px) {
+  .carousel-control {
+    top: 320px !important; }
   #form-contato .nav-item {
     padding: 0 15px !important; }
   .contatos .email h4 {
@@ -827,8 +833,6 @@
     text-align: center !important; }
   #footer .footer .social .fa {
     margin: 0px !important; }
-  #detalhes-produto .btn-alert {
-    display: none !important; }
   #paginacao .anterior, #paginacao .proximo {
     font-size: 0.7em !important; } }
 
@@ -947,6 +951,12 @@
   font-size: 16px;
   padding: 16px 32px; }
 
+@media screen and (min-width: 700px) {
+  #myCarousel .carousel-indicators {
+    margin-left: initial; }
+  .carousel-indicators {
+    margin-right: 0px; } }
+
 #myCarousel .carousel-item img, #myCarousel .list-inline-item img {
   border: 2px solid #c2c2c2; }
 
@@ -957,8 +967,7 @@
 #myCarousel .carousel-indicators {
   position: static;
   left: initial;
-  width: initial;
-  margin-left: initial; }
+  width: initial; }
 
 #myCarousel .carousel-indicators > li {
   width: initial;
@@ -1000,7 +1009,6 @@
   opacity: .5; }
 
 .carousel-indicators {
-  margin-right: 0px;
   margin-top: 20px; }
 
 #slider a {
