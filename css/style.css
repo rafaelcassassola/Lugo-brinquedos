@@ -377,14 +377,14 @@
   #destaques {
     background-image: url(../img/middle.jpg); }
   .footer {
-    margin-top: 945px !important;
+    margin-top: 805px !important;
     padding-bottom: 10px; }
   .brinquedos-2 {
     padding-top: 50px;
     max-width: 905px; }
   .brinquedos {
     max-width: 905px;
-    padding-top: 160px; } }
+    padding-top: 285px; } }
 
 @media screen and (max-width: 1382px) {
   #destaques {
@@ -816,7 +816,11 @@
 /* Ajustes Mobile */
 @media screen and (max-width: 800px) {
   #detalhes-produto .btn-alert {
-    display: none !important; } }
+    display: none !important; }
+  .destaques .meninos {
+    margin-bottom: 32px; }
+  .destaques .col-12:nth-of-type(3) {
+    margin-top: 32px; } }
 
 @media screen and (max-width: 330px) {
   .carousel-control {
