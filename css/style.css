@@ -163,6 +163,9 @@
   margin-top: 1150px;
   text-align: center;
   padding-bottom: 30px; }
+  .footer a {
+    text-decoration: none;
+    color: #ffffff; }
   .footer h2 {
     color: #ffffff;
     font-weight: bold;
@@ -810,6 +813,25 @@
     flex-direction: row;
     justify-content: flex-end; } }
 
+/* Ajustes Mobile */
+@media screen and (max-width: 330px) {
+  #form-contato .nav-item {
+    padding: 0 15px !important; }
+  .contatos .email h4 {
+    font-size: 0.8em !important; }
+  #bg-menu-detalhes-produto h1, #bg-menu-produtos-meninos h1 {
+    font-size: 2em !important; }
+  #brinquedos-mobile .brinquedos .btn-alert {
+    margin-left: 50px !important; }
+  #brinquedos-mobile .brinquedos p {
+    text-align: center !important; }
+  #footer .footer .social .fa {
+    margin: 0px !important; }
+  #detalhes-produto .btn-alert {
+    display: none !important; }
+  #paginacao .anterior, #paginacao .proximo {
+    font-size: 0.7em !important; } }
+
 #bg-menu-produtos {
   background-image: url(../img/bg-menu-produtos.jpg);
   height: 100%;
@@ -980,6 +1002,10 @@
 .carousel-indicators {
   margin-right: 0px;
   margin-top: 20px; }
+
+#slider a {
+  text-decoration: none;
+  color: #ffffff; }
 
 #slider .btn-alert {
   background-color: #fd7202;
